@@ -1,0 +1,31 @@
+.adventure
+    background-color: $white-grey
+    padding-top: 125px
+    &__wrapper
+        padding: 215px 100px
+        background: url('../img/bg/adventure-bg.png') center / cover no-repeat
+        transform: skewY(7deg)
+        min-height: 731px
+        & > *
+            transform: skewY(-7deg)
+    &__card
+        width: 240px
+        height: 300px
+        background: rgba(255, 255, 255, 0.8)
+        text-align: center
+        padding: 25px
+        box-shadow: $shadow
+    &__list
+        display: flex
+        justify-content: space-between
+    &__title
+        margin-top: 25px
+        margin-bottom: 13px
+        font-size: 20px
+        line-height: 24px
+    &__text
+        font-weight: 400
+        font-size: 16px
+        line-height: 140%
+        letter-spacing: 2px
+        color: $grey
