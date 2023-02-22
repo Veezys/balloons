@@ -1,5 +1,6 @@
 .about
     background-color: $white-grey
+    padding: 80px 100px 54px 100px
     &__title
         text-align: center
         background: linear-gradient(90deg, #C3956A 3.65%, #A24F03 100%)
@@ -9,4 +10,42 @@
         &:hover
             transform: skew(7deg, 7deg) scale(1.1)
             text-shadow: 2px 4px 5px blur #000
-            
+    &__wrapper
+        display: grid
+        margin-top: 80px
+        grid-template-columns: 532px 1fr
+        column-gap: 66px
+    &__descr
+        margin-bottom: 30px
+    &__subtitle
+        margin-bottom: 13px
+        font-size: 20px
+        line-height: 24px
+    &__text
+        font-weight: 400
+        font-size: 16px
+        line-height: 140%
+        letter-spacing: 2px
+        color: $grey
+    &__btn
+        font-weight: 700
+        font-size: 16px
+        line-height: 19px
+        color: $grey
+        text-decoration: none
+        transition: all .4s
+        padding: 11px
+        border-bottom: 1px $brown solid
+        &:hover
+            background-color: $brown
+            color: #fff
+    &__images
+        position: relative
+    &__image_second
+        position: absolute
+        left: 221px
+        top: 89px
+    &__image_third
+        position: absolute
+        left: 22px
+        top: 164px
